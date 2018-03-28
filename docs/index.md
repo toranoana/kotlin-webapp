@@ -13,10 +13,6 @@
 $ git clone https://github.com/toranoana/kotlin-webapp.git
 ```
 
-### 1-3. プロジェクトのインポート
-
-IntelliJ を起動して `Import Project` -> `build.gradle` を選択。
-
 2.プロジェクトのセットアップ（ IntelliJ Idea ）
 ---
 
@@ -44,9 +40,16 @@ Matching Java Virtual Machines (1):
 `gradle.properties` の `org.gradle.java.home=` 以降のパスを [2-2. JDK のパスを確認](https://github.com/KarageAgeta/kotlin-webapp/blob/master/docs/index.md#2-2-jdk-%E3%81%AE%E3%83%91%E3%82%B9%E3%82%92%E7%A2%BA%E8%AA%8D) で取得したものに変更。
 
 ```gradle
+$ vi ./kotlin-webapp/gradle.properties
+
 # TODO : Change to your JDK PATH
 org.gradle.java.home=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
 ```
+
+### 2-4. プロジェクトのインポート
+
+IntelliJ を起動して `Open` -> `./kotlin-webapp` を選択。
+
 
 3. ビルド
 ---

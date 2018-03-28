@@ -1,8 +1,6 @@
-package io.github.toranoana.kotlinanimelist.network.model.response
+package io.github.toranoana.kotlinanimelist.network.model
 
-import io.github.toranoana.kotlinanimelist.network.model.Ogp
-
-data class AnimeResponse(
+data class Anime(
     // TODO : API から取得する項目を追加
     val id: Int = 0,
     val title: String = "",

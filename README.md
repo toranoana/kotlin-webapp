@@ -4,7 +4,7 @@ Sample.KotlinWebApp
 Documents
 ---
 
--  [ドキュメント](https://toranoana.github.io/kotlin-webapp/)
+- [https://toranoana.github.io/kotlin-webapp/](https://toranoana.github.io/kotlin-webapp/)
 
 Getting Started
 ---
